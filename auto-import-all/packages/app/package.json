@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "domain1": "workspace:*",
+    "domain2": "workspace:*",
+    "domain3": "workspace:*",
+    "base": "workspace:*"
+  }
+}

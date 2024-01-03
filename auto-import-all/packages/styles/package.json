@@ -1,0 +1,15 @@
+{
+  "name": "styles",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "postinstall": "nuxt prepare"
+  },
+  "exports": {
+    ".": "./nuxt.config.ts"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "6.10.3"
+  }
+}

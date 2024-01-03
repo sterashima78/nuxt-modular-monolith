@@ -1,0 +1,23 @@
+{
+  "name": "base",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "storybook:dev": "storybook dev --port 6006",
+    "storybook:build": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook-vue/nuxt": "0.2.0",
+    "@storybook/addon-links": "7.6.6",
+    "@storybook/addon-essentials": "7.6.6",
+    "@storybook/addon-interactions": "7.6.6",
+    "@storybook/test": "7.6.6",
+    "@storybook/blocks": "7.6.6",
+    "storybook": "7.6.6",
+    "styles": "workspace:*"
+  },
+  "exports": {
+    ".": "./nuxt.config.ts"
+  }
+}

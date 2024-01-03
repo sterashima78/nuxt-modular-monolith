@@ -1,0 +1,19 @@
+{
+  "name": "domain3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "base": "workspace:*",
+    "domain1": "workspace:*"
+  },
+  "exports": {
+    ".": "./nuxt.config.ts"
+  }
+}

@@ -1,0 +1,1 @@
+export const getMessage = () => "message from base"
